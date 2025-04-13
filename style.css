@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(0, 0%, 8%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+main{
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px;
+    max-width: 500px;
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 0 4px 10px whitesmoke;
+    border-color: white;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.Picture{
+    .Img{
+        border-radius: 8px;
+        height: auto;
+        width:30%;
+        max-width: 300px;
+        display: block;
+        margin: 0 auto;
+        box-shadow: 0 4px 10px rgba(245, 245, 245, 0.178);
+        size-adjust: 20px;
+    }
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+}
+
+.Names-Location{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    .Name{
+        color:  hsla(75, 94%, 57%, 0.514);
+        font-family: 'Inter', sans-serif;
+        padding-top: 5px;
+    }
+    .Location{
+        font-family:'Inter', sans-serif;
+        font-size: medium;
+        padding-top: 10px;
+        font-style: italic;
+        color: whitesmoke;
+    }
+}
+.About{
+    align-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .About-Me{
+        color: rgba(59, 163, 158, 0.39);
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: sans-serif;
+        border-color: white;
+    }
+}
+
+.Links-btns{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .BTN-Class{
+        font-family: 'Inter' sans-serif;
+        background-color: hsl(0, 0%, 20%);
+        border-radius: 10px;
+        color: rgba(255, 255, 255, 0.651);
+        padding: 10px 20px;
+        width: 80%; 
+        cursor: pointer; 
+    }
+}
+#LinkedIn:hover{
+    background-color: rgba(55, 55, 207, 0.692);
+}
+
+#GitHub:hover{
+    background-color: rgba(6, 6, 31, 0.753);
+
+}
+
+#frontendmentor:hover{
+    background-color: rgba(240, 240, 240, 0.918);
+}
+
+#Instagram:hover{
+    background-color: rgba(216, 21, 200, 0.932);
+}
+
+#TikTok:hover{
+    background-color: rgba(103, 66, 189, 0.692);
+}
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media(max-width:400px){
+    
+}
